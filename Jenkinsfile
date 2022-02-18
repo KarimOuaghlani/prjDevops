@@ -33,7 +33,6 @@ pipeline {
         stage('GIT') {
             steps {
                 echo 'Getting Project';
-                git 'https://github.com/ahmedTouati/prjDevops';
             }
         }
         
